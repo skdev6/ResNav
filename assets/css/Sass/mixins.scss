@@ -1,0 +1,57 @@
+%t-c{
+    color: #FFD414;
+}
+%t-b{
+    background: #FFD414;
+}
+
+%d-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+%d-flex-center-v{
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-wrap:wrap;
+ flex-wrap:wrap;
+ -webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center;
+}
+%d-flex-center-h{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+}
+%d-flex-center-vh{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+-webkit-box-align:center;
+    -ms-flex-align:center;
+        align-items:center;
+}
+@mixin transform($property) {
+    -webkit-transform:$property;
+        -ms-transform:$property;
+            transform:$property;
+}
+@mixin transition($property) {
+    -webkit-transition:$property;
+    -o-transition:$property;
+    transition:$property;
+}

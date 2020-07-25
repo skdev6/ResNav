@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #464646;
+    background: #eee;
+    overflow-x: hidden;  
+}
+img{
+    vertical-align: bottom;
+    max-width: 100%;
+}
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    color: #05161D;  
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.4em;
+} 
+h2 {
+    font-size: 56px;
+    line-height: 75px;
+    letter-spacing: 0;
+}
+h3 {
+    font-size: 32px;
+    line-height: 42px;
+}
+h4 {
+    font-size: 26px;
+    line-height: 1.6em; 
+}
+h5 {
+    font-size: 20px;
+    line-height: 1.6em;
+}
+h6 {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.container-fluid{
+    padding-left: 6vw;
+    padding-right: 6vw;
+    @media #{$md_device}{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    @media #{$sm_mobile}{
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}
+.pt-120{
+    padding-top: 120px;
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.sec-title{
+    text-align: center;
+    margin-bottom: 90px;
+    h2{
+        margin-bottom: 25px;
+        strong{
+            font-weight: bold;
+            color: #FF7F00;
+        }
+    }
+}
+

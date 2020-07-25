@@ -1,0 +1,71 @@
+/* Large Devices, Wide Screens*/
+@media only screen and (max-width : 1199.98px) {
+
+
+
+
+
+
+
+
+/*
+    End This Query
+*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991.98px) {
+
+
+
+
+
+/*
+    End This Query
+*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767.98px) {
+
+
+
+
+/*
+    End This Query
+*/
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 575.98px) {
+
+
+
+
+/*
+    End This Query
+*/
+}
+
+/* Small Phone */ 
+@media only screen and (max-width : 480.98px) {
+
+
+
+
+/*
+    End This Query
+*/
+}
+
+/* Small Phone */ 
+@media only screen and (max-width : 360.98px) {
+
+
+
+
+/*
+    End This Query
+*/
+}
+    
